@@ -354,6 +354,7 @@ span {
 .btn-box.btns {
     display: inline-block;
     width: 15rem;
+    font-size: 1rem;
 }
 
 .btn-box.btns a::before{
@@ -506,21 +507,21 @@ span {
     width: 100%;
 }
 
-.skills-content .progress{
+.skills-content .A{
     padding: 1rem 0;
 }
 
-.skills-content .progress h3{
+.skills-content .A h3{
     font-size: 1.7rem;
     display: flex;
     justify-content: space-between;
 }
 
-.skills-content .progress h3 span{
+.skills-content .A h3 span{
     color: var(--text-color);
 }
 
-.skills-content .progress .bar{
+.skills-content .A .bar{
     height: 2.5rem;
     border-radius: .6rem;
     border: .2rem solid var(--main-color);
@@ -528,61 +529,527 @@ span {
     margin: 1rem 0;
 }
 
-.skills-content .progress .bar span{
+.skills-content .A .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* -----A------- */
+
+.skills-content .B{
+    padding: 1rem 0;
+}
+
+.skills-content .B h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .B h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .B .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .B .bar span{
     display: block;
     height: 100%;
     border-radius: .3rem;
     background-color: var(--main-color);
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width:90% ;
+/* ------B----- */
+.skills-content .C{
+    padding: 1rem 0;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width:80% ;
+.skills-content .C h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-
-.skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width:70% ;
+.skills-content .C h3 span{
+    color: var(--text-color);
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width:65% ;
+.skills-content .C .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
+.skills-content .C .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* -------C----------- */
+
+.skills-content .D{
+    padding: 1rem 0;
+}
+
+.skills-content .D h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .D h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .D .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .D .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+
+/* -----D----- */
+
+.skills-content .E{
+    padding: 1rem 0;
+}
+
+.skills-content .E h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .E h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .E .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .E .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* -------E------- */
+
+.skills-content .F{
+    padding: 1rem 0;
+}
+
+.skills-content .F h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .F h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .F .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .F .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* -------F------ */
+
+.skills-content .G{
+    padding: 1rem 0;
+}
+
+.skills-content .G h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .G h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .G .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .G .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+
+/* -----G-------- */
+
+.skills-content .H{
+    padding: 1rem 0;
+}
+
+.skills-content .H h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .H h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .H .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .H .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* -------H-------- */
+
+.skills-content .I{
+    padding: 1rem 0;
+}
+
+.skills-content .I h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content .I h3 span{
+    color: var(--text-color);
+}
+
+.skills-content .I .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.skills-content .I .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: var(--main-color);
+}
+/* ------I----- */
+
+.skills-column:nth-child(1) .skills-content .A .bar span{
     width:85% ;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
-    width:75% ;
-}
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width:90% ;
-}
-
-.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width:80% ;
+.skills-column:nth-child(1) .skills-content .B .bar span{
+    width:60% ;
 }
 
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width:70% ;
-}
-
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
+.skills-column:nth-child(1) .skills-content .C .bar span{
     width:65% ;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
-    width:85% ;
+.skills-column:nth-child(1) .skills-content .D .bar span{
+    width:70% ;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+.skills-column:nth-child(1) .skills-content .E .bar span{
+    width:70% ;
+}
+
+.skills-column:nth-child(1) .skills-content .F .bar span{
     width:75% ;
 }
+.skills-column:nth-child(1) .skills-content .G .bar span{
+    width:75% ;
+}
+
+.skills-column:nth-child(1) .skills-content .H .bar span{
+    width:70% ;
+}
+
+
+.skills-column:nth-child(1) .skills-content .I .bar span{
+    width:60% ;
+}
+
+/* Work */
+.my works{
+    min-height: auto;
+    padding-bottom: 7rem;
+    /* background: var(--second-bg-color);  */
+}
+
+.my works h2{
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color)
+
+}
+/* .my works h2 span{
+    color:var(--main-color);
+} */
+
+
+.my works-arrow {
+    margin: 2rem 0;
+  }
+  
+  .my works-arrow a {
+    font-size: 1rem;
+    text-decoration: none;
+    color:var(--main-color);
+  }
+  
+  .my works-arrow-2 {
+    margin: 2rem 0;
+  }
+  
+  .my works-arrow-2 a {
+    font-size: 1rem;
+    text-decoration: none;
+    color:var(--main-color);
+    display: none;
+  }
+
+/* Project */
+
+.portfolio-content {
+    display: flex;
+    /* justify-content: space-between; */
+    /* Adjust as needed */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if there isn't enough space */
+}
+
+.proj-1,
+.proj-2 {
+    width: calc(50% - 20px);
+    /* Adjust the width as needed */
+    margin-bottom: 20px;
+    /* Add margin between items */
+}
+.portfolio {
+    /* background: var(--main-color); */
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 6rem 0;
+  }
+  
+  .proj-heading h1 {
+    text-align: center;
+    color:var(--main-color);
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 3rem 0;
+  }
+  
+  .proj-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .proj-1 img {
+    height: 330px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 20px 10px -10px rgba(163, 224, 220, 0.31);
+    margin-right: 1.7rem;
+  }
+  
+  .proj-1 .proj1-details {
+    width: 32rem;
+  }
+  
+  .proj-1 .proj1-details i {
+    font-size: 1.5rem;
+    color: var(--main-color);
+  }
+  
+  .proj-1 .proj1-details h2 {
+    font-size: 2rem;
+    color: var(--main-color);
+  }
+  
+  .proj-1 .proj1-details p {
+    font-size: 1.3rem;
+    color: var(--main-color);
+    font-weight: 600;
+  }
+  
+  .proj-1 .proj1-details button {
+    background: #f0f0e6;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 150px;
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+  }
+  
+  .proj-1 .proj1-details button a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.1rem;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .proj-1 .proj1-details button .fas {
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .proj-1 .proj1-details button:hover {
+    background: var(--main-color);
+  }
+  
+  .proj-1 .proj1-details button:hover a,
+  .proj-1 .proj1-details button:hover .fas {
+    color: #f0f0e6;
+  }
+  
+  /* ////.....proj2.....//// */
+  
+  .proj-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .proj-2 img {
+    height: 330px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 20px 10px -10px rgba(163, 224, 220, 0.31);
+    margin-right: 1.7rem;
+  }
+  
+  .proj-2 .proj2-details {
+    width: 32rem;
+  }
+  
+  .proj-2 .proj2-details i {
+    font-size: 1.5rem;
+    color: var(--main-color); 
+  }
+  
+  .proj-2 .proj2-details h2 {
+    font-size: 2rem;
+     color:var(--main-color); 
+  }
+  
+  .proj-2 .proj2-details p {
+    font-size: 1.3rem;
+     color: var(--main-color);
+    font-weight: 600;
+  }
+  
+  .proj-2 .proj2-details button {
+    background: #f0f0e6;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 150px;
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+  }
+  
+  .proj-2 .proj2-details button a {
+    text-decoration: none;
+    /* color: #07374a; */
+    font-size: 1.1rem;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .proj-2 .proj2-details button .fas {
+    font-size: 0.7rem;
+    padding: 0.3rem;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .proj-2 .proj2-details button:hover {
+    background:var(--main-color); 
+  }
+  
+  .proj-2 .proj2-details button:hover a,
+  .proj-2 .proj2-details button:hover .fas {
+    color: #f0f0e6;
+  }
+  
+  .more-work {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+  }
+  
+  .more-work p {
+    font-size: 1.6rem;
+     color: var(--main-color); 
+    font-weight: 500;
+  }
+  .more-work a {
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 1.3rem;
+  }
+  
+  .more-work a:hover {
+    border-bottom: 2px solid var(--main-color);
+  }
+
+  /* --------- */
+
+
 .contact{
     min-height: auto;
     padding-bottom: 7rem;
@@ -728,7 +1195,7 @@ span {
     right: 0;
     width: 100%;
     height: 100%;
-    background: var(--bg-color);
+    background: var(--bg-color); 
     z-index: 98;
 }
 .animates{
@@ -773,6 +1240,7 @@ section:nth-child(odd).animate.scroll,
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
+.my-works.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll
 {
@@ -905,6 +1373,45 @@ section:nth-child(odd).animate.scroll,
     .education{
         padding: 10rem 4% 5rem 5%;
     }
+    .work-arrow {
+        display: none;
+      }
+    
+      .right-content h1 {
+        margin-top: 3.2rem;
+      }
+    
+      .proj-1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .proj-1 img {
+        height: 230px;
+        width: 290px;
+        margin-bottom: 0.5rem;
+      }
+    
+      .proj-2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .proj-2 img {
+        height: 250px;
+        width: 290px;
+        margin-bottom: 0.5rem;
+      }
+    
+      .work-arrow-2 a {
+        font-size: 1.3rem;
+        text-decoration: none;
+        /* color: #35b4de; */
+        display: block;
+        text-align: center;
+      }
 
     .contact form .input-box .input-field{
         width: 100%;
